@@ -64,7 +64,9 @@ export default function HomePage() {
             htmlFor="task"
             className="block text-sm font-medium text-gray-700 mb-1"
           >
-            <h2 className="text-lg font-bold mb-2">Elige una tarea</h2>
+            <h2 className="text-black text-lg font-bold mb-2">
+              Elige una tarea
+            </h2>
           </label>
           <select
             id="task"
@@ -81,7 +83,7 @@ export default function HomePage() {
         </div>
 
         {/* Selector de imagen */}
-        <h2 className="text-lg font-bold mb-2">Elige una imagen</h2>
+        <h2 className="text-black text-lg font-bold mb-2">Elige una imagen</h2>
         <label className="cursor-pointer flex flex-col items-center justify-center border border-dashed border-gray-400 rounded-lg p-6 hover:bg-gray-100 transition">
           <ImagePlus className="w-12 h-12 text-gray-500 mb-2" />
 
@@ -116,8 +118,10 @@ export default function HomePage() {
 
       <div className="flex flex-col flex-1 h-full bg-white p-4 border-2 rounded-lg shadowtext-sm justify-between">
         <div>
-          <h1 className="flex-1 text-2xl font-bold mb-4">Resultado</h1>
-          <div className="overflow-y-auto h-100 p-4">
+          <h1 className="text-black flex-1 text-2xl font-bold mb-4">
+            Resultado
+          </h1>
+          <div className="text-black overflow-y-auto h-100 p-4">
             <Markdown remarkPlugins={[remarkGfm]}>{result}</Markdown>
           </div>
         </div>
