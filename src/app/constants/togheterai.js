@@ -48,8 +48,9 @@ Define niveles comunes de cocción con ejemplos:
 - Crudo: sin cocción.
 - A punto: ligeramente tierno, aún firme.
 - Bien cocido: completamente tierno, desmenuzable.
-- Al dente: firme al morder, ideal para pastas locales.`,
+- Al dente: firme al morder, ideal para pastas locales.
 
 NO EXCEDAS UN PARRAFO/UNA LISTA
+`,
   },
 ];
